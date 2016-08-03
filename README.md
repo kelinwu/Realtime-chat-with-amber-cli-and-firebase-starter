@@ -1,3 +1,5 @@
+# please note start from May 2016, emberfire has replaced with new API, detailed implementation please follow this link https://firebase.google.com/docs/web/setup
+
 # Em-fb-chat
 
 This README outlines the details of collaborating on this Ember application.

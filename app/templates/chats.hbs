@@ -1,0 +1,10 @@
+{{outlet}}
+
+{{#each chat as model}}
+    <div class="well">
+        <h4>{{#link-to 'chat.edit' chat.id}}{{chat.title}}{{/link-to}}</h4>
+        <p>{{chat.message}}</p>
+        <small>{{formatDate chat.date}}</small>
+        <button {{action 'deleteChat' chat.id}} class="btn btn-danger">Delete</button>
+     </div>
+{{/each}}

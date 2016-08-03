@@ -4,6 +4,14 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'em-fb-chat',
     environment: environment,
+    // contentSecurityPolicy: {'connect-src' : "'self' wss://*.firebaseio.com"} ,
+    firebase: 'https://appchat-970e2.firebaseio.com/',
+    // firebaseInit: {
+    //   apiKey: "AIzaSyDp2DSW_59bKonjGYVrTHy3kNa4I_4Kj60",
+    //   authDomain: "appchat-970e2.firebaseapp.com",
+    //   databaseURL: "https://appchat-970e2.firebaseio.com",
+    //   storageBucket: "appchat-970e2.appspot.com",
+    // },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

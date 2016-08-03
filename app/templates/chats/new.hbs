@@ -1,0 +1,15 @@
+<form>
+    <div class="form-group">
+        <label>Title</label>
+        {{input type="text" class="form-control" value="title" placeholder="Add message"}}
+    </div>
+    <div class="form-group">
+        <label>DateTitle</label>
+        {{input type="date" class="form-control" value="date"}}
+    </div>
+    <div class="form-group">
+        <label>Message</label>
+        {{textarea class="form-control" value="message" placeholder="your message"}}
+    </div>
+    <button {{action 'addMessage'}} class="btn btn-primary">Add</button>
+    </form>

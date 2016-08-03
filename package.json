@@ -1,7 +1,7 @@
 {
   "name": "em-fb-chat",
   "version": "0.0.0",
-  "description": "Small description for em-fb-chat goes here",
+  "description": "em-fb-chat",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -38,6 +38,7 @@
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
     "ember-welcome-page": "^1.0.1",
+    "emberfire": "2.0.1",
     "loader.js": "^4.0.1"
   }
 }

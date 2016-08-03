@@ -1,4 +1,4 @@
-# please note start from May 2016, emberfire has replaced with new API, detailed emberfire implementation and setup, please refer this link https://firebase.google.com/docs/web/setup
+# Please note start from May 2016, emberfire has replaced with new API, detailed emberfire implementation and setup, please refer this link https://firebase.google.com/docs/web/setup
 
 # Em-fb-chat
 
